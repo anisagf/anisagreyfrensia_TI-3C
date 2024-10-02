@@ -549,7 +549,7 @@ if ( ! is_php('5.4'))
  */
 	if ($EXT->call_hook('display_override') === FALSE)
 	{
-		$OUT->_display();
+		$OUT->_display('');
 	}
 
 /*
